@@ -39,7 +39,8 @@ public class KnxConvertCommand implements Callable<Void> {
 		analyzer.analyze();
 
 		analyzer.getLights().forEach(System.out::println);
-
+        
+		System.out.println("Done!");
 		return null;
 	}
 
